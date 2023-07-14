@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"V2RAY_WS","type":"vmess","server":"www.133558.xyz","port":443,"cipher":"auto","uuid":"b5edf724-0f5b-46c1-a93c-942c75594f75","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/one"}}
+  - {"name":"V2RAY_WS","type":"vmess","server":"www.133558.xyz","port":443,"cipher":"auto","uuid":"ebd5f31d-0761-46b1-9280-8ce40400ab05","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/one"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
